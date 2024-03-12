@@ -9,7 +9,7 @@ import time
 #==================in-game functions==================
 #=====================================================
 
-# This function is copied from the main file, because it is imposible to import them as it raises circular import error
+# This function is copied from the main file, because it is imposible to import as it raises circular import error
 def draw_picture(location, alighnment = "left", speed = 0.09):
     with open(location, "r") as image:
         # Read all instanteniously
